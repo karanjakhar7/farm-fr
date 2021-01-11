@@ -65,7 +65,7 @@ p{
   font-family: "Montserrat-Light"
 }
 
-/* Download Buttons */
+/* Buttons */
 
 .download-button{
   margin: 5% 3% 5% 0;
@@ -106,48 +106,21 @@ p{
   width: 20%;
 
 }
-.my-icons{
-  color: #f37121;
-  margin-bottom: 1rem;
-}
 
-.my-icons:hover{
-  color: #db6400;
-}
+/* Carousel */
 
-/* Testimonials Section */
-
-#testimonials{
-  background-color: #f37121;
-}
-
-.testimonial-text{
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.testimonial-image{
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-
-
-#press{
-  background-color: #ef8172;
-  padding-top: 3%;
-}
-
-.press-logo{
-  width: 14%;
-  margin: 20px 20px 50px;
+.mycarousel{
+  padding: 5% 10%;
 }
 
 
 /* about */
 
-.about{
+  #about p{
+    color: #5a5a5a;
+  }
+
+.about-us{
   padding:10% 15%;
   text-align: left;
 
@@ -168,7 +141,9 @@ p{
 margin: 0.5%;
 }
 
-
+#footer .container-fluid{
+  padding-bottom: 0;
+}
 
 
 @media (max-width: 992px) {
